@@ -1,0 +1,318 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 20px;
+  color: white;
+  }
+  
+  .navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+  }
+  
+  .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+  }
+  
+  .nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  }
+  
+  .nav-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  }
+  
+  .paragraph {
+  color: white;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 100px;
+  }
+  
+  .paragraph span {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  }
+
+  .button1{
+ padding: 10px 20px;
+ 
+ background-color: rgb(37, 34, 34);
+    margin-left: 50px;
+    width:10%;
+    height:25%;
+   
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px 10px;
+    font-size:18px;
+    color: white;
+    cursor: pointer;
+    transform: translate(10%,30%);
+  
+  }
+  
+.text1{
+  margin-right: -50%;
+  margin-left: -6%;
+  margin-top: -15px;
+  align-items: center;
+  font-size: 10px;
+}
+
+.text2{
+  margin-right: -100%;
+  margin-left: -3%;
+  margin-top: -5px;
+  align-items: center;
+  font-size: 5px;
+  text-shadow: 0 0 -10px rgba(0, 0, 0, 0.5);
+}
+
+
+  .photo {
+    
+    display:flex;
+     justify-content: center;
+     align-items: center;
+    height:10%;
+    width:10% ;
+   pointer-events: none;
+  
+  padding: -1px 50px;
+  margin-top: 50%;
+  margin-left: 50%;
+   transform: translate(-110%,-15% );
+    
+    }
+
+  .vertical-line {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 36%;
+  width: 1px;
+  height: 70%;
+  background-color: rgb(56, 51, 51);
+  transform: translateX(-50%);
+  }
+  .paragraph-topright {
+  position: absolute;
+  top: 20%;
+  transform: translateX(-200%);
+  right:-200px;
+  color: white;
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  
+  }
+  .paragraph-bottomright {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-200%);
+  left: 700px;
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  }
+  .buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+  margin-left: 5%;
+  margin-top: -17%;
+  
+  }
+  
+  .buttons-container .button {
+    justify-content:center;
+    
+    text-align: center;
+    display: flex;
+    padding: -1px 16px -1px 16px;
+  }
+
+
+  .button {
+  color: white;
+  background-color: rgb(32, 30, 30);
+  padding: 15px ;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: -10%;
+  margin-bottom: 10%;
+
+  width: 120px;
+  height: 60px;
+  border: none;
+  display: flex;
+  
+  border-radius:150px;
+  cursor: pointer;
+  position: relative;
+  transform:translate(560%,210%);
+  }
+  .top-right-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  }
+  .top-right-image img {
+  width: 50px; /* Adjust the size as per your requirement */
+  height: auto;
+  }
+  
+  .photo {
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+  margin-left:100px ;
+  }
+  .text{
+  margin-top: -5px;
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: left;
+  font-weight: 400;
+  position: relative;
+  top: 5px;
+  left:-10px
+  }
+  .textcaption{
+  margin-top: -10px;
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: left;
+  position: relative;
+  top:5px;
+  left:-30px;
+  }
+  .button-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  text-decoration: none;
+  pointer-events: auto;
+  }
+  .play-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .pause-button {
+    position: fixed;
+    bottom: 20px;
+    left: 80px;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .soundwave-container{
+    position: relative;
+  }
+  
+  .soundwave-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 300px;
+    margin-right: 300px;
+    background-color: black;
+  }
+  
+  .soundwave-image {
+    width: 90px;
+    height: auto;
+  
+  }
+  .playpauseImage{
+    position: absolute;
+    top: 0;
+    right: 55%;
+    margin-top: 349px;
+    margin-right: -200px;
+  }
+ 
+  .audio-player-container {
+    position: absolute;
+    top: -5%;
+    right: 40%;
+    margin-top: 350px;
+    margin-right: -400px;
+  }
+  .top-right-audio {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    padding: 10px;
+    
+  }
+  
+  .audio-player {
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .audio-player audio {
+    color: gray;
+  }
+  .recording-icon {
+    position: absolute;
+    top: 10%;
+    right: -100%;
+    color: red; /* Adjust the color of the recording icon */
+    font-size: 24px; /* Adjust the size of the recording icon */
+  }
+
+  .custom-soundwave {
+    position: absolute;
+    top: 10px;
+    right: -50%;
+    color: red; /* Adjust the color of the recording icon */
+    font-size: 24px;
+  }
