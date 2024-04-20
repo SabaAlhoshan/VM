@@ -1,0 +1,84 @@
+body {
+    position: fixed;
+    background-color: #121212;
+  }
+  
+  .rectangle {
+    background-color: #1A1A1A;
+    color: #FFFFFFB2;
+    width: 600px;
+    height: 800px;
+    position: fixed;
+    
+  }
+  
+  .Log_button {
+    background-color: #2B2B2B;
+    color: #FFFFFFB2;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    transform: translate(60%, 720%);
+
+  }
+  .Sign_button{
+    background-color: #2B2B2B;
+    color: #FFFFFFB2;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 40px;
+    transform: translate(60%, 860%);
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+  
+  }
+  
+  .title1 {
+    color: #FFFFFFB2;
+    font-size: 50px;
+    opacity: 70%;
+    height: 100px;
+    transform: translate(80%, 100%);
+    position: fixed;
+  }
+  
+  .title2 {
+    color: #FFFFFFB2;
+    transform: translate(250%, 320%);
+    font-size: 65px;
+    margin: 0;
+    position: fixed;
+  }
+  
+  .text1 {
+    color: #FFFFFFB2;
+    opacity: 50%;
+    font-size: 15px;
+    transform: translate(360%, 420%);
+    position: fixed;
+  }
+  
+  .icon {
+    width: 200px;
+    height: 180px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 20px;
+    position: fixed;
+    top: 18%;
+    left: 58%;
+  }
