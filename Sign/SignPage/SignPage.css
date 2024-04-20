@@ -1,7 +1,8 @@
-.logo{
-    width:28%;
-    height:28%;
-    padding-left:33.5%;    
+.Slogo{
+    width:27%;
+    height:27%;
+    top:60px;
+    padding-left:34%;    
 }
 .maintext{
     font-size: 3rem;
@@ -23,22 +24,22 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-   
+   left:-20%;
 }
 
 .button {
 
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 190px;
-    height: 49px; */
+    width: 190px;
+    height: 49px;
     color: #b2b2b2;
     background: #2b2b2b;
     border-radius: 15px;
     font-size: 20px;
     margin-right: 55px;
-    margin-top: -54%;
-    /* position: relative; */
-    left:-30%;
+    margin-top: -64%;
+    position: absolute;
+    left:-80%;
 }

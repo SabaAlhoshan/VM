@@ -1,6 +1,6 @@
 import React from 'react';
 import './SignPage.css';
-import VMLogo from './VMLogo.png';
+import VMLogo from '../../uploads/VMLogo.png';  
 import { useNavigate } from 'react-router-dom';
 
 function SignPage() {
@@ -9,7 +9,7 @@ function SignPage() {
     <div>
 
         <div >
-            <img src={VMLogo} alt="Logo" className="logo"/>
+            <img src={VMLogo} alt="Logo" className="Slogo"/>
         </div>
 
       <h1 className="maintext">Virtual Me</h1>

@@ -1,6 +1,10 @@
 import React from 'react';
 import './LogFill.css';
+import { useNavigate } from 'react-router-dom';
+
 function LogFill() {
+  const navigate = useNavigate();
+
   return (
     <div className="sign-up-container">
 
@@ -15,7 +19,7 @@ function LogFill() {
           <br/><br/>
 
           <div >
-          <button  type="submit" className="sub">Submit</button>
+          <button  type="submit" className="sub" onClick={() => navigate('/HomePage')}>Submit</button>
           </div>
         </form>
       </div>
