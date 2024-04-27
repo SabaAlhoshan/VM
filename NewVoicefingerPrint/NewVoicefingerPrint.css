@@ -1,0 +1,170 @@
+.navbarg {
+    position: absolute;
+    left: 5%;
+    top: 20px; 
+
+    
+}
+
+.navbar {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #b2b2b2;
+    border-radius: 25px;
+    font-weight:light;
+
+}
+.navbar:hover {
+    background-color: #2b2b2b; 
+    color: #b2b2b2;
+}
+
+.text {
+    font-size: 3rem;
+    font-weight:bold;
+    color: #b2b2b2;
+    position: absolute;
+    left: 8%;
+    top: 80px; 
+
+}
+
+.texttwo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #b9b9b9;
+    position: absolute;
+    left: 61%;
+    top: 100px; 
+
+}
+
+.textthree {
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #b9b9b9;
+    position: absolute;
+    left: 52%;
+    top: 140px; 
+
+}
+
+.vertical-line {
+    position: absolute;
+    display: flex;
+    left: 38%;
+    transform: translateX(-38%);
+    top: 115px ;
+    height: 70%;
+    width: 0.5px;
+    background-color: #b2b2b2;
+}
+
+
+.button-container {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-end;
+
+   
+}
+
+.button {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 49px;
+    color: #b2b2b2;
+    background: #2b2b2b;
+    border-radius: 15px;
+    font-size: 20px;
+    /* margin-right: 55px; */
+    position: relative;
+    top: 550px; 
+    left:753px;
+
+}
+
+.square-container { /*اللي داخله مايك*/
+    width: 170px;
+    height: 170px;
+    background-color: #2b2b2b;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    align-items: center; /*  موضع الخط داخل المربع وسط او فوق او تحت*/
+    justify-content: center; /*  موضع الخط داخل المربع يمين او يسار او وسط*/
+    left: 760px;
+    top: 250px;
+    border: 1px solid #b2b2b2;
+
+}
+.square-button {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    
+  }
+  
+  
+.logo {
+   max-width:130px;
+    position: relative;
+    left:0px;
+
+}
+
+
+
+.undervoicecontainer {
+    width: 200px;
+    height: 250px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 8%;
+    top: 320px; 
+    border: 0.3px solid #b2b2b2;
+   
+
+
+}
+
+.voice-container {
+    width: 180px;
+    height: 150px;
+    background-color: #2b2b2b;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;  /*  موضع الخط داخل المربع وسط او فوق او تحت*/
+    justify-content: center; /*  موضع الخط داخل المربع يمين او يسار او وسط*/
+    border-radius: 15px;
+    position: relative;
+    bottom: 40px;
+
+}
+
+.wave-logo{
+    max-width:100px;
+    /* position: relative; */
+    /* left:-25px; */
+}
+
+.containertext{
+    position: absolute;
+    top: 175px;
+    left: 18px;
+    font-size: 0.7rem;
+    justify-content: center;
+    color: #b2b2b2;
+}
