@@ -5,6 +5,21 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 
+
+import App2 from './App2';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+
+
+import Root from './Root';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <Root />
+);
+
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
