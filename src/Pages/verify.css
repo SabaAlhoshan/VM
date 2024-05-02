@@ -1,0 +1,550 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  /*
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  */
+  .App-header {
+    background-color: #121212;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(30px + -1vmin);
+    font-weight: bold;
+    color: white;
+    
+   
+  }
+  .App-header1 {
+    opacity: 0.7;
+    font-size: 80px;
+    text-align:left;
+    position: relative;
+    top: -300px;
+    left: -500px;
+  }
+  .App-header2 {
+    position: relative;
+    top: 500px;
+    left: -500px;
+    transform: scale(2);
+  
+  }
+  .App-header3 {
+    opacity: 0.7;
+    font-size: 40px;
+    text-align:left;
+    position: relative;
+    top: -750px;
+    left: 350px;
+    font-weight: lighter ;
+  }
+  .App-header4 {
+  
+    font-size: 15px;
+  
+    position: relative;
+    top: -790px;
+    left: 350px;
+    font-weight: lighter ;
+   opacity :0.5;
+   text-align:left;
+  }
+  
+  .line {
+    border-left: 0.1px solid white;
+    opacity: 0.3;
+    height: 550pt;
+    position: fixed;
+    top: 200px;
+    left: 700px;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .button1 {
+    padding: 10px 20px;
+    color: white;
+    opacity: 0.7;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none; /* Remove focus outline */
+    position: absolute; /* Change position to absolute */
+    top: 80px; /* Adjust top position */
+    left: 150px; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the button */
+    transition: top 0.3s /* Add transition effect */
+  }
+  
+  .button1:active,
+  .button1.highlighted {
+    color: #121212; /* Set text color to transparent */
+    background-color: white; /* Set background color to white */
+    opacity: 0.2;
+    border: none; /* Remove border */
+    border-radius: 50px; /* Set border-radius for a capsule shape */
+  
+  }
+  
+  .button2 {
+    padding: 10px 20px;
+    color: white;
+    opacity: 0.7;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none; /* Remove focus outline */
+    position: absolute; /* Change position to absolute */
+    top: 80px; /* Adjust top position */
+    left:340px; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the button */
+    transition: top 0.3s /* Add transition effect */
+  }
+  
+  .button2:active,
+  .button2.highlighted {
+    color: #121212; /* Set text color to transparent */
+    background-color: white; /* Set background color to white */
+    opacity: 0.2;
+    border: none; /* Remove border */
+    border-radius: 50px; /* Set border-radius for a capsule shape */
+  
+  }
+  /*  top: 40%; /* Adjust top position left: 40%; /* Adjust left position */
+  /*if i want to make it move up when clicked*/
+  
+  
+  .button3 {
+    padding: 10px 20px;
+    color: white;
+    opacity: 0.7;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none; /* Remove focus outline */
+    position: absolute; /* Change position to absolute */
+    top: 80px; /* Adjust top position */
+    left:510px; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the button */
+    transition: top 0.3s /* Add transition effect */
+  }
+  
+  .button3:active,
+  .button3.highlighted {
+    color: #121212; /* Set text color to transparent */
+    background-color: white; /* Set background color to white */
+    opacity: 0.2;
+    border: none; /* Remove border */
+    border-radius: 50px; /* Set border-radius for a capsule shape */
+  
+  }
+  
+  
+  .button4 {
+    padding: 10px 20px;
+    color: white;
+    opacity: 0.7;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none; /* Remove focus outline */
+    position: absolute; /* Change position to absolute */
+    top: 80px; /* Adjust top position */
+    left:670px; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the button */
+    transition: top 0.3s /* Add transition effect */
+  }
+  
+  .button4:active,
+  .button4.highlighted {
+    color: #121212; /* Set text color to transparent */
+    background-color: white; /* Set background color to white */
+    opacity: 0.2;
+    border: none; /* Remove border */
+    border-radius: 50px; /* Set border-radius for a capsule shape */
+  
+  }
+  
+  .button5 {
+    padding: 5px 16px; /* Adjust padding to make the button smaller */
+    color: white;
+    opacity: 0.7;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px; /* Adjust font size to make the button text smaller */
+    cursor: pointer;
+    outline: none; /* Remove focus outline */
+    position: absolute; /* Change position to absolute */
+    top: -190px; /* Adjust top position */
+    right: -140px; /* Adjust right position */
+    transform: scale(0.09);
+  }
+  
+  
+  
+  .rounded-rectangle {
+    display: flex;
+    width: 600px; /* Adjust the width as desired */
+    height: 85px; /* Adjust the height as desired */
+    border: 0.5px solid white; /* Add a thin white border */
+    border-radius: 25px; /* Adjust the border radius to make it rounded */
+    background-color: transparent; /* Set the background color as transparent */
+    overflow: hidden;
+    position: fixed;
+    top: 280px; 
+    right: 250px;
+  }
+  
+  .section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.4px solid white; /* Add a thin white vertical line */
+  
+  }
+  
+  .section:last-child {
+    border-right: none; /* Remove the right border for the last section */
+  }
+  
+  .text {
+    font-size: 20px; /* Adjust the font size as desired */
+    color: white; /* Set the text color as white */
+    font-weight: lighter; 
+    opacity: 0.7;
+  }
+  
+  
+  
+  
+  
+  
+  .card-button {
+    display: flex;
+    background-color: #121212;
+    justify-content: center;
+    align-items: flex-end;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    bottom: 150px; /* value to change  vertical position */
+    left: 800px; /*  value to changeeeee horizontal position */
+    z-index: 999;
+    text-decoration: none;
+    font-weight: lighter; 
+    border:#121212;
+  }
+  
+  .button-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  .card {
+    width: 295px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(74, 74, 74);
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+  }
+  
+  .soundwaveimg {
+    width: 280px; /* Adjust the size of the image */
+    height: 230px;
+  
+  }
+  
+  .text9 {
+    margin-top: -5px;
+   
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: left;
+    font-weight: 400; 
+    position: relative;
+    top: 5px;
+    left: -10px;
+  }
+  .textcaption9 {
+    margin-top: -10px;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter; 
+    text-align:left;
+    position: relative;
+    top: 5px;
+    left: -30px;
+    
+    
+  }
+  
+  
+  .button-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    pointer-events: auto;
+  }
+  
+  
+  
+  
+  
+  
+  .card-button2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 650px;
+    height: 500px;
+    position: fixed;
+    bottom:  150px; /* Modify this value to change the vertical position */
+    left: 1150px; /* Modify this value to change the horizontal position */
+    z-index: 999;
+    text-decoration: none;
+    font-weight: lighter; 
+  }
+  
+  .button-inner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  .card2 {
+    width: 295px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(74, 74, 74);
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+  }
+  
+  .wallet {
+    width: 280px; /* Adjust the size of the image as needed */
+    height: 230px;
+  
+  }
+  
+  .text8 {
+    margin-top: -5px;
+    color: white;
+    font-size: 25px;
+  
+    text-align: center;
+    font-weight: 400; 
+    position: relative;
+    top: 5px;
+    left: -60px;
+  }
+  .textcaption8 {
+    margin-top: -10px;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter; 
+    position: relative;
+    top: 5px;
+    left: -30px;
+    
+  }
+  
+  
+  .button-link2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    pointer-events: auto;
+  }
+
+
+  .Title1 {
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    top: -700px;
+    left: 350px;
+  }
+  
+  .Title99 {
+    font-size: 25px;
+    color: white;
+    font-weight: 20; /* Invalid value, should be a number between 100 and 900 */
+    width: 750px;
+    height: 1600px;
+    padding: 10px;
+    text-align: justify;
+    position: relative;
+    top: -780px;
+    left: 450px;
+  }
+  
+  .resend {
+    color: #ec7d7d;
+    font-weight: 100;
+  }
+  
+  .Title98 {
+    font-size: 20px;
+    color: white;
+    font-weight: 50; /* Invalid value, should be a number between 100 and 900 */
+    position: relative;
+    left: 350px;
+    top: -2250px;
+    text-align: center;
+  }
+  
+  .OTP {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -2380px;
+    left: 350px;
+  }
+  
+  .OTP-field {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin-right: 10px;
+    text-align: center;
+    color: #1A1A1A;
+    font-size: 20px;
+  }
+  
+  .OTP-field:focus {
+    border: 3px solid blue;
+  } 
+  
+  .verify-button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(74, 74, 74);
+    background-color: #2B2B2B;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: -2290px;
+    left: 350px;
+  }
+  
+  .verify-button:hover {
+    background-color: rgb(78, 128, 237);
+    border-color: blue;
+  }
+  
+  .Title88 {
+    font-size: 30px;
+    color: #93855B;
+    font-weight: 150; /* Invalid value, should be a number between 100 and 900 */
+    position: relative;
+    top: -2250px;
+    left: 350px;
+
+  }
+  
+  .Title87 {
+    font-size: 30px;
+    color: #ec7d7d;
+    font-weight: 150; /* Invalid value, should be a number between 100 and 900 */
+    position: relative;
+    top: -2200px;
+    left: 350px;
+  
+  }
+  
+  .long-rectangle {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+   
+  }
+  
+  .long-red-rectangleB {
+    width: 600px;
+    height: 100px;
+    background-color: #2B2B2B ;
+    border: solid 2px  #93855B ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: -2550px;
+    left: 360px;
+  }
+  
+
+  
+  .hidden {
+    display: none;
+  }
