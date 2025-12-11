@@ -13,8 +13,8 @@ Smart Contract Automation: Enforce protection rules and prevent unauthorized use
 Rights Protection Framework: Designed to support the emerging category of virtual human rights.
 User-Friendly Interface: Simple onboarding and accessible verification process.
 # How It Works
-1-User records or uploads their original voice
-2-The system processes and establishes a unique identity signature
-3-A smart contract registers the ownership on the blockchain
-4-Verification occurs automatically through the blockchain when needed
-5-Unauthorized attempts are flagged or blocked based on contract rules
+- 1-User records or uploads their original voice
+- 2-The system processes and establishes a unique identity signature
+- 3-A smart contract registers the ownership on the blockchain
+- 4-Verification occurs automatically through the blockchain when needed
+- 5-Unauthorized attempts are flagged or blocked based on contract rules
