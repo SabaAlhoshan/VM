@@ -6,3 +6,9 @@ Virtual Me is a blockchain-powered system designed to protect virtual human righ
 In the virtual realm, human rights become increasingly vulnerable—especially intangible rights such as voice ownership, which lack physical representation. With the rapid expansion of artificial intelligence, the risk of violating these rights grows, as no established legal or technical framework currently protects individuals from unauthorized voice usage.
 Virtual Me offers a solution by leveraging blockchain and smart contracts to securely attribute the original voice to its rightful owner. This creates an immutable record that reduces unauthorized replication, identity misuse, and rights violations.
 What sets Virtual Me apart is its pioneering role in establishing a technical foundation for safeguarding virtual human rights. The system ensures comprehensive registration, validation, and long-term protection for digital voice ownership.
+# Key Features
+Voice Ownership Registration: Securely record and verify original voice identity.
+Blockchain Authentication: Immutable, tamper-proof ownership records.
+Smart Contract Automation: Enforce protection rules and prevent unauthorized use.
+Rights Protection Framework: Designed to support the emerging category of virtual human rights.
+User-Friendly Interface: Simple onboarding and accessible verification process.
