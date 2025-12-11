@@ -1,0 +1,68 @@
+
+import React from 'react';
+import './login.css';
+import voiceFingerprint from './voicefingerprint.jpg';
+import playpauseImage from './playpause.png';
+import manImage from './man.jpg';
+import soundtryImage from './soundtry.png';
+
+function Loginsignup() {
+  return (
+    <div className="container">
+      <nav className="navbar">
+        <div className="logo"></div>
+        <ul className="nav-links">
+          <li>
+            <a href="#aboutus" className="nav-link">About Us</a>
+          </li>
+          <li>
+            <a href="#why" className="nav-link">Why VirtualMe</a>
+          </li>
+          <li>
+            <a href="#home" className="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#agreements" className="nav-link active">Agreements</a>
+          </li>
+        </ul>
+        <div className="paragraph-topright">Pre-Specified Script</div>
+        <div className="vertical-line"></div>
+      </nav>
+      <div className="paragraph">
+        <span>new</span>
+        <span>voice</span>
+        <span>fingerprint</span>
+      </div>
+      <div className="paragraph-bottomright">
+        This script contains all the letters and vowels to preserve the person's accent
+        and ensure the accurate representation of the letter sound and pronunciation.
+      </div>
+        <button className='button1'>
+      <img src={voiceFingerprint} alt="Voice Fingerprint" className="photo" />
+      <span className='text1'>    new voice fingerprint</span>
+      <span className='text2'> <br/>text placeHolder text placeHolder <br/> text placeHolder text placeHolder <br /> </span>
+    
+      </button>
+
+      <div className="playpauseImage">
+      <img src={playpauseImage} alt="Pause" className="top-right-image" />
+      </div>
+      <div className="soundtry">
+        <img src={soundtryImage} alt="Soundwave" className="soundtry-image" />
+      </div>
+
+
+
+      <div className="top-right-image">
+        <img src={manImage} alt="Man" />
+      </div>
+
+      <div className="buttons-container">
+        <button className="button"> Restart</button>
+        <button className="button"> Submit</button>
+      </div>
+    </div>
+  );
+}
+
+export default Loginsignup;
